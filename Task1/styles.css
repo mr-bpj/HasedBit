@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px; 
+    padding-left: -10vh;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+.menubar {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+main {
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.content-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.content-box p{
+    text-decoration: #333;
+    text-wrap: pretty;
+    text-justify: auto;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+img{
+    width: 50vh;
+    height: 45vh;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: #333;
+}
+
+#headd{
+    text-decoration: none;
+    text-size-adjust: 20vh;
+    padding: 20 vh;
+
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menubar :hover{
+    color: bisque;
+}
+.social-links :hover{
+    color: bisque;
+}
+
+.sidebar p{
+ 
+    border-bottom:  solid #bcb8b8;
+}
+
+.content-box p{
+    padding-right: 70px;
+    border-right:  solid #bcb8b8;
+}
+
