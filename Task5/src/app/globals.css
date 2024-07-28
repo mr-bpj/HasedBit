@@ -1,0 +1,93 @@
+/* Base styles (for all screen sizes) */
+.calculator-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 10px;
+  background-color: #E8F5E9; /* Light green background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.calculator-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align items horizontally */
+  margin-bottom: 20px;
+}
+
+.calculator-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #4CAF50; /* Green icon color */
+}
+
+.calculator-body {
+  text-align: center; /* Center align text */
+}
+
+.calculator-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #4CAF50; /* Green border */
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensure padding and border don't add to width */
+}
+
+.calculator-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to new line if needed */
+  justify-content: center; /* Center align buttons horizontally */
+}
+
+.calculator-buttons button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #4CAF50; /* Green background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.calculator-buttons button:hover {
+  background-color: #45A049; /* Darker green on hover */
+}
+
+.calculator-result {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #4CAF50; /* Green result text color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .calculator-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .calculator-input {
+    font-size: 14px;
+  }
+
+  .calculator-buttons button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .calculator-result {
+    font-size: 18px;
+  }
+}

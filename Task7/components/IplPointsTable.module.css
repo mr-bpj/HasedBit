@@ -1,0 +1,28 @@
+/* components/IplPointsTable.module.css */
+
+.ipl-points-table {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .ipl-points-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .ipl-points-table th,
+  .ipl-points-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .ipl-points-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .ipl-points-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
